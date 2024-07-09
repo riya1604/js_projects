@@ -5,11 +5,10 @@ body {
 }
 
 .container{
-  background-color: blue;
   height: 70vh;
   width: 40vw;
   margin-left: 30vw;
-  margin-top: 12vh;
+  margin-top: 8vh;
 }
 
 .title {
