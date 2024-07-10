@@ -25,6 +25,8 @@ main{
   background-color: white;
   position: absolute;
   border-radius: 50px;
+  transition: all linear 0.2s;
+  mix-blend-mode: difference;
 }
 
 h1{
