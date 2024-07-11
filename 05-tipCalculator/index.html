@@ -14,15 +14,18 @@
 
       <div class="main-input">
         <p>Product Cost:</p>
-        <input type="text">
+        <input type="text" class="js-input-cost">
   
-        <p>Tax Percentage:</p>
-        <input type="text" class="js-input-tax">
+        <p >Tip Percentage:</p>
+        <input type="text" class="js-input-tip"  onkeydown="
+        if(event.key ==='Enter'){
+          calculateTotalCost ();
+        };">
   
       </div>
 
       
-      <button>CALCULATE</button>
+      <button class="js-calculate">CALCULATE</button>
 
       <p class="js-total"></p>
     </div>

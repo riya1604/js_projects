@@ -46,6 +46,8 @@ main{
   width: 100%;
   margin-top: 2vh;
   margin-bottom: 1.5vw;
+  font-size: 1.6vw;
+  padding-left: 1vw;
 }
 
 button{
