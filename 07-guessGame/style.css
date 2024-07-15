@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  "Lato", sans-serif;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  overflow: hidden;
+}
+
+
+
+
+
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+}
+
+main h1{
+  font-size: 50px;
+  margin-bottom: 1vh;
+}
+
+main p{
+  font-size: 40px;
+  margin-bottom: 1vh;
+}
+
+button{
+  padding: 20px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 1vw;
+  margin-bottom: 5vh;
+  border-radius: 50px;
+  border:none;
+}
+
+.js-your-guess,
+.js-computer-value{
+  font-size: 20px;
+}
+
