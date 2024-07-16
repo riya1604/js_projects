@@ -23,7 +23,7 @@ main{
 
 .container{
   height: 50vh;
-  width: 40vw;
+  width: 35vw;
   background-color: white;
   border-radius: 20px;
   position: relative;
@@ -56,6 +56,7 @@ main{
 
 .fa-star{
   color: lightgrey;
+  cursor: pointer;
 }
 
 .fa-star.active{
